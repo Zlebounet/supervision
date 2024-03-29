@@ -1,4 +1,6 @@
 version: "2"
+apiVersion: apps/v1
+kind: Deployment
 services:
   app:
     image: belz624/supervision:latest
